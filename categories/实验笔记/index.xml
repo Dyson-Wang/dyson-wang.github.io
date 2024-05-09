@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>实验笔记 on ivy</title>
+    <link>https://dyson-wang.github.io/categories/%E5%AE%9E%E9%AA%8C%E7%AC%94%E8%AE%B0/</link>
+    <description>Recent content in 实验笔记 on ivy</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 09 May 2024 20:00:05 +0800</lastBuildDate>
+    <atom:link href="https://dyson-wang.github.io/categories/%E5%AE%9E%E9%AA%8C%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Untitled</title>
+      <link>https://dyson-wang.github.io/posts/untitled/</link>
+      <pubDate>Thu, 09 May 2024 00:29:34 +0000</pubDate>
+      <guid>https://dyson-wang.github.io/posts/untitled/</guid>
+      <description>Untitled</description>
+    </item>
+    <item>
+      <title>SplitPlace</title>
+      <link>https://dyson-wang.github.io/posts/splitplace/</link>
+      <pubDate>Wed, 08 May 2024 12:38:43 +0000</pubDate>
+      <guid>https://dyson-wang.github.io/posts/splitplace/</guid>
+      <description>SplitPlace实验路线 安装依赖 配置vagrant virtualbox docker proxy问题 环境配置python3 install.py vagrant代理# vagrantfile proxy config.proxy.http = &amp;#34;http://yourproxy:8080&amp;#34; config.proxy.https = &amp;#34;http://yourproxy:8080&amp;#34; config.proxy.no_proxy = &amp;#34;localhost,127.0.0.1&amp;#34; 实</description>
+    </item>
+  </channel>
+</rss>

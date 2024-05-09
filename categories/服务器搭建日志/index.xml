@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>服务器搭建日志 on ivy</title>
+    <link>https://dyson-wang.github.io/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA%E6%97%A5%E5%BF%97/</link>
+    <description>Recent content in 服务器搭建日志 on ivy</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 09 May 2024 20:00:05 +0800</lastBuildDate>
+    <atom:link href="https://dyson-wang.github.io/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA%E6%97%A5%E5%BF%97/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>dockers images 离线安装</title>
+      <link>https://dyson-wang.github.io/posts/dockers-images-%E7%A6%BB%E7%BA%BF%E5%AE%89%E8%A3%85/</link>
+      <pubDate>Thu, 09 May 2024 00:29:47 +0000</pubDate>
+      <guid>https://dyson-wang.github.io/posts/dockers-images-%E7%A6%BB%E7%BA%BF%E5%AE%89%E8%A3%85/</guid>
+      <description>dockers images 离线安装导出docker save &amp;#39;shreshthtuli/cifar100_semantic:latest&amp;#39; -o cifar100_semantic.tar docker save &amp;#39;shreshthtuli/cifar100_layer:latest&amp;#39; -o cifar100_layer.tar docker save &amp;#39;shreshthtuli/fashionmnist_semantic:latest&amp;#39; -o fashionmnist_semantic.tar docker save &amp;#39;shreshthtuli/fashionmnist_layer:latest&amp;#39; -o fashionmnist_layer.tar docker save &amp;#39;shreshthtuli/mnist_semantic:latest&amp;#39; -o mnist_semantic.tar docker save &amp;#39;shreshthtuli/mnist_layer:latest&amp;#39; -o mnist_layer.tar docker save -o shreshthtuli.tar &amp;#39;shreshthtuli/cifar100_semantic:latest&amp;#39; &amp;#39;shreshthtuli/cifar100_layer:latest&amp;#39; &amp;#39;shreshthtuli/fashionmnist_semantic:latest&amp;#39; &amp;#39;shreshthtuli/fashionmnist_layer:latest&amp;#39; &amp;#39;shreshthtuli/mnist_semantic:latest&amp;#39; &amp;#39;shreshthtuli/mnist_layer:latest&amp;#39; 导入# 本地复制到远程 # 拷贝文件 scp local_file</description>
+    </item>
+    <item>
+      <title>virtual box</title>
+      <link>https://dyson-wang.github.io/posts/virtual-box/</link>
+      <pubDate>Mon, 06 May 2024 03:12:42 +0000</pubDate>
+      <guid>https://dyson-wang.github.io/posts/virtual-box/</guid>
+      <description>virtual box删除虚拟机VBoxManage controlvm vm1 poweroff VBoxManage controlvm vm2 poweroff VBoxManage unregistervm --delete vm1 VBoxManage unregistervm --delete vm2 echoexport proxy=&amp;#34;http://172.21.15.197:2080&amp;#34; export http_proxy=$proxy export https_proxy=$proxy export ftp_proxy=$proxy export no_proxy=&amp;#34;localhost, 127.0.0.1, ::1, 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8&amp;#34; echo &amp;#39;Acquire::http::Proxy &amp;#34;http://172.21.15.197:2080/&amp;#34;;\nAcquire::https::Proxy &amp;#34;http://172.21.15.197:2080/&amp;#34;;&amp;#39; | sudo tee -a /etc/apt/apt.conf.d/proxy.conf</description>
+    </item>
+    <item>
+      <title>自动化</title>
+      <link>https://dyson-wang.github.io/posts/%E8%87%AA%E5%8A%A8%E5%8C%96/</link>
+      <pubDate>Fri, 03 May 2024 09:04:30 +0000</pubDate>
+      <guid>https://dyson-wang.github.io/posts/%E8%87%AA%E5%8A%A8%E5%8C%96/</guid>
+      <description>自动化#!/bin/bash # 第一次测试自动化</description>
+    </item>
+    <item>
+      <title>nextcloud安装</title>
+      <link>https://dyson-wang.github.io/posts/nextcloud%E5%AE%89%E8%A3%85/</link>
+      <pubDate>Fri, 03 May 2024 07:49:10 +0000</pubDate>
+      <guid>https://dyson-wang.github.io/posts/nextcloud%E5%AE%89%E8%A3%85/</guid>
+      <description>nextcloud安装seafile?安装sudo docker run \ --init \ --sig-proxy=false \ --name nextcloud-aio-mastercontainer \ --restart always \ --publish 10180:80 \ --publish 10181:8080 \ --publish 10183:8443 \ --volume nextcloud_aio_mastercontainer:/mnt/docker-aio-config \ --volume /var/run/docker.sock:/var/run/docker.sock:ro \ nextcloud/all-in-one:latest</description>
+    </item>
+    <item>
+      <title>服务器实验报错日志</title>
+      <link>https://dyson-wang.github.io/posts/%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%AE%9E%E9%AA%8C%E6%8A%A5%E9%94%99%E6%97%A5%E5%BF%97/</link>
+      <pubDate>Mon, 22 Apr 2024 05:20:38 +0000</pubDate>
+      <guid>https://dyson-wang.github.io/posts/%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%AE%9E%E9%AA%8C%E6%8A%A5%E9%94%99%E6%97%A5%E5%BF%97/</guid>
+      <description>服务器实验报错日志</description>
+    </item>
+    <item>
+      <title>流量</title>
+      <link>https://dyson-wang.github.io/posts/%E6%B5%81%E9%87%8F/</link>
+      <pubDate>Sat, 20 Apr 2024 13:36:42 +0000</pubDate>
+      <guid>https://dyson-wang.github.io/posts/%E6%B5%81%E9%87%8F/</guid>
+      <description>流量bjut</description>
+    </item>
+    <item>
+      <title>实验室小主机配置</title>
+      <link>https://dyson-wang.github.io/posts/%E5%AE%9E%E9%AA%8C%E5%AE%A4%E5%B0%8F%E4%B8%BB%E6%9C%BA%E9%85%8D%E7%BD%AE/</link>
+      <pubDate>Fri, 19 Apr 2024 11:48:33 +0000</pubDate>
+      <guid>https://dyson-wang.github.io/posts/%E5%AE%9E%E9%AA%8C%E5%AE%A4%E5%B0%8F%E4%B8%BB%E6%9C%BA%E9%85%8D%E7%BD%AE/</guid>
+      <description>实验室小主机配置日志 apt 安装 openssh-server git net-tools curl vim lrzsz influxdb virtualbox vagrant ansible dos2linux 二进制安装/usr/local nodejs java go mariadb(mysql) mongodb deb包安装 docker apt 官方库安装 postgresql redis gitlab sds本地安装con</description>
+    </item>
+    <item>
+      <title>vm服务器日志-rocky</title>
+      <link>https://dyson-wang.github.io/posts/vm%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%97%A5%E5%BF%97-rocky/</link>
+      <pubDate>Sat, 03 Feb 2024 14:03:11 +0000</pubDate>
+      <guid>https://dyson-wang.github.io/posts/vm%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%97%A5%E5%BF%97-rocky/</guid>
+      <description>vm服务器日志-rockyVM installrocky-9.3-x86_64-minimal &amp;ndash; blogs &amp;ndash; env 日志 配置nju源 sudo sed -e &amp;#39;s|^mirrorlist=|#mirrorlist=|g&amp;#39; \ -e &amp;#39;s|^#baseurl=http://dl.rockylinux.org/$contentdir|baseurl=https://mirror.nju.edu.cn/rocky|g&amp;#39; \ -i.bak \ /etc/yum.repos.d/rocky-extras.repo \ /etc/yum.repos.d/rocky.repo dnf makecache yum yum install -y git nodejs net-tools tar git 代理设置 git config --global user.name &amp;#34;Dyson Wang&amp;#34; git config --global user.email &amp;#34;Dyson.Wang@outlook.com&amp;#34; git config --global</description>
+    </item>
+    <item>
+      <title>DIY</title>
+      <link>https://dyson-wang.github.io/posts/diy/</link>
+      <pubDate>Sat, 03 Feb 2024 13:13:55 +0000</pubDate>
+      <guid>https://dyson-wang.github.io/posts/diy/</guid>
+      <description>DIY 主板 CPU GPU SSD 内存 机箱 电源 散热器 风扇 键盘 鼠标 显示器</description>
+    </item>
+    <item>
+      <title>一些常用的服务器配置</title>
+      <link>https://dyson-wang.github.io/posts/%E4%B8%80%E4%BA%9B%E5%B8%B8%E7%94%A8%E7%9A%84%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%85%8D%E7%BD%AE/</link>
+      <pubDate>Sun, 07 Jan 2024 06:38:45 +0000</pubDate>
+      <guid>https://dyson-wang.github.io/posts/%E4%B8%80%E4%BA%9B%E5%B8%B8%E7%94%A8%E7%9A%84%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%85%8D%E7%BD%AE/</guid>
+      <description>一些常用的服务器配置build a 数据库服务器 网站服务器 ipv6 DNS2400:3200::1 2001:4860:4860::8888 proxy# system_proxy export proxy=&amp;#34;http://172.21.15.197:2080&amp;#34; export http_proxy=$proxy export https_proxy=$proxy export ftp_proxy=$proxy export no_proxy=&amp;#34;localhost, 127.0.0.1, ::1, 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8&amp;#34; # apt_proxy Acquire::http::Proxy &amp;#34;http://172.21.15.197:2080/&amp;#34;; Acquire::https::Proxy &amp;#34;http://172.21.15.197:2080/&amp;#34;;</description>
+    </item>
+  </channel>
+</rss>
